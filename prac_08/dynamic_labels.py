@@ -1,4 +1,4 @@
-from docutils.utils.smartquotes import default_smartypants_attr
+
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.lang import Builder
