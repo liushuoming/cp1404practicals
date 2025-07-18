@@ -1,0 +1,28 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Label:
+        text: "Name List"
+        font_size: 24
+        size_hint_y: None
+        height: 40
+
+    BoxLayout:
+        size_hint_y: None
+        height: 50
+        spacing: 10
+
+        Button:
+            text: "Load Names"
+            on_press: app.load_names()
+
+        Button:
+            text: "Clear List"
+            on_press: app.clear_names()
+
+    BoxLayout:
+        id: names_box
+        orientation: 'vertical'
+        spacing: 5
